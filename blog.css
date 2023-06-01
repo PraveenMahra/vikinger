@@ -16,6 +16,10 @@ header {
   font-weight: 700;
 }
 
+.searchbar input::placeholder {
+  color: white;
+}
+
 .btn {
   width: 8rem;
   padding: 1.5rem;
@@ -335,6 +339,15 @@ header {
 
   .blog-img {
     width: 16%;
+  }
+
+  .footer-bottom {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-bottom-text {
+    padding: 1rem;
   }
 }
 
