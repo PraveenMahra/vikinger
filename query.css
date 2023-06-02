@@ -169,25 +169,20 @@
 @media (max-width: 34em) {
   .navbar {
     display: flex;
-    padding: 0.5rem 0.5rem;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  .company-logo {
-    position: absolute;
-    top: 3rem;
-    left: 1rem;
+  .navbar ul {
+    display: none;
   }
 
   .logo-name {
     display: none;
   }
 
-  .navbar ul {
-    display: flex;
-    margin-left: 9rem;
-    margin-top: 3rem;
-    font-size: 1.3rem;
-    gap: 1rem;
+  .company-logo {
+    margin-left: 1rem;
   }
 
   .navbar-btn {
@@ -199,8 +194,8 @@
   }
 
   .intro-para {
-    width: 40rem;
-    margin: 4rem;
+    width: 100%;
+    margin: auto;
   }
 
   .community-heading {
@@ -218,16 +213,26 @@
   .feature-grid {
     margin-bottom: 8rem;
   }
-
-  .community-detail-heading {
+  build js .community-detail-heading {
     font-size: 4rem;
   }
 
   .community-detail-para {
-    width: 40rem;
+    width: 100%;
+    margin: auto;
+  }
+
+  .sec-community-icon {
+    margin-left: -4rem;
   }
 
   .sec-preview-para {
-    width: 40rem;
+    width: 100%;
+    margin: auto;
+  }
+
+  .footer ul {
+    gap: 1rem;
+    font-size: 1rem;
   }
 }
