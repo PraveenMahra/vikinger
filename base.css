@@ -18,6 +18,11 @@ body {
   font-size: 1.6rem;
 }
 
+.content-box {
+  max-width: 130rem;
+  margin: auto;
+}
+
 .paragraph {
   font-size: 1.8rem;
   color: #b0b2c5;
