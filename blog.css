@@ -389,7 +389,30 @@ header {
     left: 9rem;
   }
 
+  .searchbar input {
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .btn {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .logo-img {
+    margin: 1rem;
+  }
+
   .banner-sec-text p {
     display: none;
+  }
+
+  .section-post {
+    width: 100%;
+  }
+
+  .sec-post-text {
+    margin-left: 1rem;
   }
 }
