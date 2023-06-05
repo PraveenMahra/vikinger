@@ -206,14 +206,28 @@
 
 @media (max-width: 45rem) {
   .navbar {
-    padding: 0px;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
+  .navbar ul {
+    display: none;
   }
 
   .logo-name {
     display: none;
   }
 
+  .tweet-name {
+    margin-top: -1rem;
+  }
+
   .intro-heading {
     font-size: 5rem;
+  }
+
+  .footer ul {
+    gap: 1rem;
+    font-size: 1rem;
   }
 }

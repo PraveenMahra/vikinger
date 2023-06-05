@@ -173,20 +173,18 @@
     align-items: center;
   }
 
-  .navbar ul {
-    display: none;
-  }
-
   .logo-name {
     display: none;
   }
 
   .company-logo {
-    margin-left: 1rem;
+    margin: 1rem;
   }
 
   .navbar-btn {
-    margin: 3rem 1rem 0px 0px;
+    margin: 1rem;
+    width: 8rem;
+    padding: 1rem;
   }
 
   .intro-heading {
@@ -195,7 +193,7 @@
 
   .intro-para {
     width: 100%;
-    margin: auto;
+    margin: 1.5rem auto;
   }
 
   .community-heading {
