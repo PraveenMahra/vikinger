@@ -408,6 +408,19 @@ header {
     display: none;
   }
 
+  .banner-bg {
+    margin-left: -3rem;
+    width: 90%;
+  }
+
+  .blog-img {
+    left: -3rem;
+  }
+
+  .banner-sec-text {
+    left: 3rem;
+  }
+
   .section-post {
     width: 100%;
   }
